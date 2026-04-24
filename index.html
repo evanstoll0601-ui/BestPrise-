@@ -1,1 +1,143 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TONSHOP</title>
+
+<style>
+body {
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#0d0d0d;
+  color:white;
+}
+
+header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px;
+  border-bottom:1px solid #222;
+}
+
+.logo {
+  font-size:24px;
+  font-weight:bold;
+}
+
+nav a {
+  margin:0 10px;
+  color:white;
+  text-decoration:none;
+  font-size:14px;
+}
+
+.hero {
+  text-align:center;
+  padding:80px 20px;
+}
+
+.hero h1 {
+  font-size:50px;
+}
+
+.btn {
+  padding:12px 25px;
+  background:white;
+  color:black;
+  border:none;
+  cursor:pointer;
+  margin-top:20px;
+}
+
+.products {
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+  padding:40px;
+}
+
+.card {
+  background:#1a1a1a;
+  padding:20px;
+  width:220px;
+  text-align:center;
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:translateY(-5px);
+}
+
+.card img {
+  width:100%;
+}
+
+.price {
+  font-weight:bold;
+  margin-top:10px;
+}
+
+footer {
+  text-align:center;
+  padding:30px;
+  border-top:1px solid #222;
+  color:#888;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">TONSHOP 🔥</div>
+  <nav>
+    <a href="#">Accueil</a>
+    <a href="#">Sneakers</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Les meilleures sneakers</h1>
+  <p>Authentifiées & stylées</p>
+  <button class="btn">Voir les produits</button>
+</section>
+
+<section class="products">
+
+  <div class="card">
+    <img src="https://images.stockx.com/images/Air-Jordan-4-Retro-Black-Cat-2020-Product.jpg" />
+    <h3>Jordan 4 Black Cat</h3>
+    <p class="price">249€</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.stockx.com/images/Nike-Dunk-Low-Panda-Product.jpg" />
+    <h3>Nike Dunk Panda</h3>
+    <p class="price">129€</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.stockx.com/images/adidas-Samba-OG-Black-White-Gum-Product.jpg" />
+    <h3>Adidas Samba</h3>
+    <p class="price">109€</p>
+  </div>
+
+  <div class="card">
+    <img src="https://images.stockx.com/images/New-Balance-2002R-Protection-Pack-Rain-Cloud.jpg" />
+    <h3>New Balance 2002R</h3>
+    <p class="price">139€</p>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 TONSHOP - Tous droits réservés
+</footer>
+
+</body>
+</html>
